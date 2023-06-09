@@ -13,7 +13,7 @@ class MenuPage extends StatelessWidget {
             Image.asset('assets/images/practicas-image.png'),
             Expanded(
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   ElevatedButton.icon(
                     onPressed: () {
@@ -23,7 +23,7 @@ class MenuPage extends StatelessWidget {
                     label: const Text("Ir contador"),
                   ),
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () => Navigator.of(context).pushNamed('/carnet'),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: const [
