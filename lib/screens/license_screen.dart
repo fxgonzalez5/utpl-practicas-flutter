@@ -70,7 +70,7 @@ class Information extends StatelessWidget {
           margin: const EdgeInsets.only(top: 40),
           child: ClipRRect(
             borderRadius: BorderRadius.circular(20),
-            child: Image.asset('images/carnet-qr.png', width: 230,),
+            child: Image.asset('assets/images/carnet-qr.png', width: 230,),
           ),
         ),
 
@@ -101,7 +101,7 @@ class Information extends StatelessWidget {
           child: CircleAvatar(
             radius: 65,
             backgroundColor: Color(0xffdfeffd),
-            backgroundImage: AssetImage('images/profile-avatar.png'),
+            backgroundImage: AssetImage('assets/images/profile-avatar.png'),
           ),
         ),
 
